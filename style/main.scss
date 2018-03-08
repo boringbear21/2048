@@ -331,9 +331,9 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform;
 
-  $base: 2;
+  $base: 1;
   $exponent: 1;
-  $limit: 11;
+  $limit: 100000;
 
   // Colors for all 11 states, false = no special color
   $special-colors: false false, // 2
